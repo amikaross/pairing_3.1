@@ -4,3 +4,8 @@ numbers.each do |number|
     p number
   end
 end
+numbers.each do |number|
+  if number < 60
+    p number
+  end
+end
